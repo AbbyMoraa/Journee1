@@ -1,16 +1,44 @@
-# React + Vite
+## Journee by Abigael Momanyi.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Journee is a modern web app that makes discovering new destinations effortless and personalized. It brings travel inspiration, real-time images, and personalized collections into one smooth, interactive experience.
 
-Currently, two official plugins are available:
+## Features
+Discover Destinations: Browse countries and cities with live images and key details.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Secure Login: Sign in with Firebase Authentication.
 
-## React Compiler
+Responsive Design: Explore seamlessly on desktop, tablet, or mobile.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Filter: Quickly find destinations that match your interests.
 
-## Expanding the ESLint configuration
+## Technologies Used
+Frontend: React, React Router, Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Authentication: Firebase
+
+APIs: Pexels (images)
+
+## Getting Started
+Follow these steps to run Journee locally:
+
+-Clone the repository
+
+git clone cd journee code . to open it in vs code.
+
+-Install dependencies
+
+npm install
+
+Configure Firebase
+Create a Firebase project.
+
+Add your Firebase credentials to .env or firebaseConfig.js.
+
+Start the development server
+
+npm run dev
+
+-Open in your browser using the live link given Go to http://localhost:5173
+
+Live Demo
+Check out the live app here: Journee Live
